@@ -6,7 +6,7 @@ import pickle
 
 
 app = Flask(__name__)
-model = pickle.load(open('knn_main_project.pkl','rb')) 
+model = pickle.load(open('knn_model.pkl','rb')) 
 
 
 @app.route('/')
